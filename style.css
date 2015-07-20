@@ -1,0 +1,21 @@
+body, ul, li {
+	margin: 0;
+	padding: 0;
+}
+li {
+	position: absolute;
+	opacity: 0;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	transition: opacity 1s ease-in-out;
+  	-moz-transition: opacity 1s ease-in-out;
+  	-webkit-transition: opacity 1s ease-in-out;
+}	
+li.show {
+	opacity: 1;
+}
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
